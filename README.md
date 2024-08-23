@@ -1,29 +1,31 @@
-Plant Detection and Counting Using Computer Vision Techniques
-Author: Azad Rasul (azad.rasul@soran.edu.iq)
-Attribution: The code was inspired by the DroneMapper CropAnalysis project: DroneMapper CropAnalysis
+# Plant Detection and Counting Using Computer Vision Techniques
 
-Introduction
+**Author:** Azad Rasul (azad.rasul@soran.edu.iq)  
+**Attribution:** The code was inspired by the DroneMapper CropAnalysis project.
+
+## Introduction
 This project explores the use of computer vision techniques to detect and count plants using raster data. By leveraging tools like OpenCV, rasterio, and EarthPy, the tutorial processes raster datasets to identify and visualize plant locations. The method employs blob detection to count plants within a specified plot area accurately, providing valuable insights for applications in agriculture and environmental monitoring.
 
-Data Download
-Download the data from: DroneMapper Crop Analysis Data and extract it into the data/ directory of your notebook.
+## Data Download
+Download the data from: [DroneMapper Crop Analysis Data](#) and extract it into the `data/` directory of your notebook.
 
-Dependencies
+## Dependencies
 The following Python libraries are required to run the code in this repository:
 
-GeoPandas
-NumPy
-Rasterio
-Matplotlib
-EarthPy
-OpenCV
-Pandas
+- GeoPandas
+- NumPy
+- Rasterio
+- Matplotlib
+- EarthPy
+- OpenCV
+- Pandas
+
 You can install them using pip:
 
-bash
-Copy code
+```bash
 pip install geopandas numpy rasterio matplotlib earthpy opencv-python pandas
-Code Overview
+```
+## Code Overview ##
 1. Import Libraries
 The project starts by importing essential libraries for geospatial data handling, raster data processing, computer vision, and data visualization.
 
@@ -44,8 +46,8 @@ build_true_color_image(rgb_clip): Ensures RGB values are correctly scaled for tr
 Usage
 After setting up the environment and downloading the necessary data, run the Python scripts or Jupyter notebooks provided in this repository. Follow the instructions within the code to process the data, detect plants, and visualize the results.
 
-License
+## License ##
 This project is licensed under the MIT License.
 
-Acknowledgements
+## Acknowledgements ##
 This project is heavily inspired by the DroneMapper CropAnalysis project. Special thanks to the original authors for providing the data and initial code structure.
